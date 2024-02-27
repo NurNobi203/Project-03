@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: rgba(255, 170, 58, 0.67);
+  text-shadow: 1px 2px 2px black;
+}
+
+.navbar {
+  position: static;
+  top: 0;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  width: 900px;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+  font-size: 22px;
+  padding: 20px;
+  background: transparent;
+}
+
+.img-div {
+  min-height: 100vh;
+  background: url(/Cafa/img/antique-cafe-bg-01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.section-1 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 350px;
+  padding: 2.5rem;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section-1 p {
+  color: rgba(252, 156, 54, 0.551);
+}
+
+.section-2 p {
+  text-align: left;
+  font-size: 13px;
+  word-spacing: 3px;
+  line-height: 1.5rem;
+  color: rgb(254, 173, 32);
+  width: 350px;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.706);
+  margin: auto;
+}
+
+.section-3 h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: large;
+  text-align: center;
+  width: 250px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 170, 58, 0.658);
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  margin-bottom: 180px;
+}
+
+.menu {
+  padding-top: 150px;
+  min-height: 100vh;
+  background: url(/Cafa/img/antique-cafe-bg-02.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.menu h2 {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  color: rgb(140, 144, 144);
+  padding: 20px;
+}
+.coffee-name-price {
+  min-width: 520px;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  padding-right: 70px;
+}
+
+.coffee-name {
+  margin-left: 50px;
+  background-color: rgb(64, 54, 40);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.coffee {
+  display: flex;
+  padding: 10px;
+}
+img {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.Our-Cafe {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 30%;
+  left: 0;
+  right: 10%;
+  margin: auto 50px 0 auto;
+  width: 390px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.Our-Cafe h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.Our-Cafe p {
+  text-align: left;
+  font-size: 16.5px;
+  padding-bottom: 20px;
+}
+
+button {
+  position: absolute;
+  top: 79%;
+  left: 30%;
+  margin: auto 50px 0 auto;
+  padding: 15px 50px;
+  border-radius: 10px;
+  background-color: rgb(19, 87, 84);
+  color: white;
+  font-size: 22px;
+}
+.About {
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(/Cafa/img/antique-cafe-bg-03.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 30px;
+  border-radius: 10px;
+}
